@@ -15,7 +15,7 @@ function generateAnswer(event) {
 
   let content = document.querySelector("#road-trip");
   content.classList.remove("hidden");
-  content.innerHTML = `⏳ Generating a road trip from ${departure.value} to ${arrival.value}`;
+  content.innerHTML = `<div class="generating">⏳ Generating a road trip from ${departure.value} to ${arrival.value} </div>`;
 
   axios.get(apiUrl).then(displayAnswer);
 }
