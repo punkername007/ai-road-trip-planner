@@ -67,6 +67,12 @@ a {
   font-size: 16px;
   margin-left: 5px;
   padding: 10px 20px;
+  transition: all 200ms ease-in-out;
+}
+
+.submit-button:hover {
+  cursor: pointer;
+  background-color: #092635da;
 }
 
 .input-example {
