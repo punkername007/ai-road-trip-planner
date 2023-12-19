@@ -1,6 +1,10 @@
 function displayAnswer(response) {
-  let contentElement = document.querySelector("#road-trip");
-  contentElement.innerHTML = response.data.answer;
+  new Typewriter("#road-trip", {
+    strings: response.data.answer,
+    autoStart: true,
+    delay: 1,
+    cursor: null,
+  });
 }
 
 function generateAnswer(event) {
