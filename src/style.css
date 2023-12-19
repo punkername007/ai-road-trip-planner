@@ -83,3 +83,15 @@ a {
   padding: 20px;
   line-height: 2;
 }
+
+.stop-name {
+  font-weight: bold;
+}
+
+.distance {
+  opacity: 0.7;
+}
+
+.hidden {
+  display: none;
+}
